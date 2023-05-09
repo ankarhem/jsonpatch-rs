@@ -1,7 +1,7 @@
 {
   "name": "jsonpatch-rs",
   "author": "Jakob Ankarhem <jakob@ankarhem.dev>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "",
   "scripts": {},
@@ -9,14 +9,14 @@
   "files": [
     "build/**"
   ],
-  "types": "./build/browser/jsonpath_rs.d.ts",
+  "types": "./build/browser/jsonpatch_rs.d.ts",
   "exports": {
     ".": {
-      "browser": "./build/browser/jsonpath_rs.js",
-      "node": "./build/node/jsonpath_rs.js"
+      "browser": "./build/browser/jsonpatch_rs.js",
+      "node": "./build/node/jsonpatch_rs.js"
     },
     "./binary.wasm": {
-      "browser": "./build/browser/jsonpath_rs_bg.wasm",
+      "browser": "./build/browser/jsonpatch_rs_bg.wasm",
       "node": "./noop.js"
     }
   },
